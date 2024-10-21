@@ -5,9 +5,9 @@ export default function SkillsSection(props) {
     <div className="col-sm col-md-4">
       <h3>{props.skillType}</h3>
       <ul>
-        {props.skillTextList.map((skillText, index) => {
+        {props.skillTextList.map((skillText, idx) => {
           return (
-            <li key={index}>
+            <li key={idx}>
               {skillText.toLowerCase()}
               <img
                 src={`/icons/${props.skillType}/${skillText.toLowerCase()}.png`}
