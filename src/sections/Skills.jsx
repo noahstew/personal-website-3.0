@@ -4,9 +4,9 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import SectionHeader from "../components/general_use/SectionHeader";
 import SkillsCard from "../components/skills/SkillsCard";
 
-let textLanguageList = ["JavaScript", "Python", "Java", "C++", "C"];
-let textFrameworkList = ["React", "Node.js", "Express", "Flask", "Django"];
-let textToolList = ["Git", "GitHub", "VS Code", "Postman", "Heroku"];
+let textLanguageList = ["HTML", "CSS", "Javascript", "Java", "Python", "Dart", "SQL", "R"];
+let textFrameworkList = ["React", "JQuery", "NextJS", "NodeJS",  "ExpressJS", "Tailwind", "Bootstrap",  "Flutter"];
+let textToolList = ["Git", "GitHub", "JUnit5", "Firebase", "PostgresSQL", "MySQL", "Excel", "Tableau"];
 
 export default function Skills() {
   return (
@@ -16,15 +16,13 @@ export default function Skills() {
         <SkillsCard
           skillType="Languages"
           skillTextList={textLanguageList}
-          skillIconList={null}
         />
         <SkillsCard
           skillType="Frameworks"
           skillTextList={textFrameworkList}
-          skillIconList={null}
         />
         <SkillsCard
-          skillType="Tech Tools"
+          skillType="Tools"
           skillTextList={textToolList}
           skillIconList={null}
         />
