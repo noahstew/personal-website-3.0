@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 
 export default function SkillsSection(props) {
   return (
@@ -10,7 +10,7 @@ export default function SkillsSection(props) {
             <li key={idx}>
               {skillText.toLowerCase()}
               <img
-                src={`/icons/${props.skillType}/${skillText.toLowerCase()}.png`}
+                src={`/icons/${props.skillType.toLowerCase()}/${skillText.toLowerCase()}.png`}
                 alt={`${skillText} icon`}
                 height="60"
               />
