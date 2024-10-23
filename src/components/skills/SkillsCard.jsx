@@ -8,7 +8,6 @@ export default function SkillsSection(props) {
         {props.skillTextList.map((skillText, idx) => {
           return (
             <li key={idx}>
-              {skillText.toLowerCase()}
               <img
                 src={`/icons/${props.skillType.toLowerCase()}/${skillText.toLowerCase()}.png`}
                 alt={`${skillText} icon`}
