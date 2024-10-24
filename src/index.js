@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import Hero from "./sections/Hero";
@@ -9,18 +9,20 @@ import Contact from "./sections/Contact";
 import Footer from "./sections/Footer";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-
-const font = {
-  fontFamily: "Source Code Pro",
-};
-
 root.render(<App />);
 
+
+
 function App() {
+  useEffect(() => {
+    document.body.classList.add('bg-slate-800', 'text-slate-200');
+    document.body.style.fontFamily = "Source Code Pro";
+  }, []);
+
   return (
     <React.StrictMode>
-      <div style={font}>
-        <NavBar />
+      <div>
+        <NavBar/>
         <Hero />
         <Skills />
         <Projects />

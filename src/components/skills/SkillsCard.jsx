@@ -1,5 +1,3 @@
-import React, {useState} from "react";
-
 export default function SkillsSection(props) {
   return (
     <div className="col-sm col-md-4">

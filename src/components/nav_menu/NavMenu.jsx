@@ -1,4 +1,3 @@
-import React from "react";
 import NavMenuLink from "./NavMenuLink";
 import NavMenuSocialLinks from "./NavMenuSocialLinks";
 

@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function Footer() {
     const firstYear = 2024;
     const year = new Date().getFullYear();

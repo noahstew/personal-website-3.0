@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import SectionHeader from "../components/general_use/SectionHeader";
 import ProjectType from "../components/projects/ProjectType";

@@ -1,4 +1,3 @@
-import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import SectionHeader from "../components/general_use/SectionHeader";

@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function SectionHeader(props) {
     return (
         <div id={props.sectionId}>

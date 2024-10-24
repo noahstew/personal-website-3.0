@@ -1,4 +1,3 @@
-import React from "react";
 import SectionHeader from "../components/general_use/SectionHeader";
 import SocialLink from "../components/general_use/SocialLink";
 
