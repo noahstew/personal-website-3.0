@@ -9,7 +9,7 @@ let textToolList = ["Git", "GitHub", "JUnit5", "Firebase", "PostgresSQL", "MySQL
 
 export default function Skills() {
   return (
-    <>
+    <div className="mx-10">
       <SectionHeader sectionId="skills" title="Skills" />
       <div className="row">
         <SkillsCard
@@ -26,6 +26,6 @@ export default function Skills() {
           skillIconList={null}
         />
       </div>
-    </>
+    </div>
   );
 }

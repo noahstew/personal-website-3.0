@@ -14,7 +14,7 @@ export default function Projects() {
   }
 
   return (
-    <>
+    <div  className="mx-10">
       <SectionHeader sectionId="projects" title="Projects" />
       <div className="row">
         <ProjectType type="Web" onClick={() => switchProjectType("Web")} />
@@ -40,6 +40,6 @@ export default function Projects() {
           }
         })}
       </div>
-    </>
+    </div>
   );
 }

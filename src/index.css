@@ -4,30 +4,3 @@
 @tailwind utilities;
 
 
-.bar {
-  display: block;
-  width: 25px;
-  height: 3px;
-  margin: 5px auto;
-  background-color: black;
-  /* -webkit-transition: all 0.3s ease-in-out; */
-  /* transition: all 0.3s ease-in-out; */
-}
-
-.x:nth-child(1) {
-  display: block;
-  width: 25px;
-  height: 3px;
-  margin: 5px auto;
-  background-color: black;
-  transform: translateY(8px) rotate(45deg);
-}
-
-.x:nth-child(2) {
-  display: block;
-  width: 25px;
-  height: 3px;
-  margin: 5px auto;
-  background-color: black;
-  transform: translateY(0px) rotate(-45deg);
-}

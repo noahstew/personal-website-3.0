@@ -1,12 +1,11 @@
+
 export default function SocialLink(props) {
     return (
-        <>
-        <div className="col">
-            <p>Image source: {props.imgSrc}</p>
-            <p>Image alt: {props.imgAlt}</p>
-            <p>Image size: {props.imgSize}</p>
+      <a className="hover:cursor-pointer">
+        <div className={`${props.styles} rounded-lg`}>
+            <img src={props.imgSrc} alt={props.imgAlt} />
         </div>
-            
-        </>
+      </a>
     );
-}
+  }
+  

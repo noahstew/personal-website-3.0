@@ -3,7 +3,7 @@ import SocialLink from "../components/general_use/SocialLink";
 
 export default function Contact() {
   return (
-    <>
+    <div className="mx-10">
       <SectionHeader sectionId="contact" title="Contact" />
       <div className="row">
         <div className="col-6 col-md-3">
@@ -35,6 +35,6 @@ export default function Contact() {
           />
         </div>
       </div>
-    </>
+    </div>
   );
 }

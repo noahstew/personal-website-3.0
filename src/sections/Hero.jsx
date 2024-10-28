@@ -4,14 +4,14 @@ import "bootstrap/dist/css/bootstrap.css";
 
 export default function Hero() {
   return (
-    <div href="#landing" className="h-screen">
-      <h1 className="mt-10 mx-10 font-bold text-7xl ">Hey 👋</h1>
-      <h1 className="-mt-2 mx-10 font-bold text-7xl ">I am Noah</h1>
-      <h2 className="mx-10 -mt-2 text-cyan-400">
+    <div id="landing" className="h-screen pt-10 mx-10">
+      <h1 className="font-bold text-7xl pt-36">Hey 👋</h1>
+      <h1 className="font-bold text-7xl ">I am Noah</h1>
+      <h2 className="text-cyan-400">
         Software Engineer|Data Scientist
       </h2>
-      <div className="m-10">
-        <div className="row  text-teal-400">
+      <div >
+        <div className="row  text-teal-400 pt-48">
           <HeroAccent
             header="3rd Year"
             subheader="Computer Science Major & Data Science Minor"
