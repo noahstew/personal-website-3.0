@@ -1,30 +1,53 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-
+import { useState } from "react";
 import SectionHeader from "../components/general_use/SectionHeader";
-import SkillsCard from "../components/skills/SkillsCard";
-
-let textLanguageList = ["HTML", "CSS", "Javascript", "Java", "Python", "Dart", "SQL", "R"];
-let textFrameworkList = ["React", "JQuery", "NextJS", "NodeJS",  "ExpressJS", "Tailwind", "Bootstrap",  "Flutter"];
-let textToolList = ["Git", "GitHub", "JUnit5", "Firebase", "PostgresSQL", "MySQL", "Excel", "Tableau"];
+import SkillType from "../components/skills/SkillType";
+import SkillCard from "../components/skills/SkillCard";
 
 export default function Skills() {
+  const [skillType, setSkillType] = useState("All");
+
+  function switchSkillType(type) {
+    if (skillType === type) return;
+    setSkillType(type);
+  }
+
   return (
     <div className="mx-10">
       <SectionHeader sectionId="skills" title="Skills" />
       <div className="row">
-        <SkillsCard
-          skillType="Languages"
-          skillTextList={textLanguageList}
+        <SkillType type="All" onClick={() => switchSkillType("All")} />
+        <SkillType
+          type="Frontend"
+          onClick={() => switchSkillType("Frontend")}
         />
-        <SkillsCard
-          skillType="Frameworks"
-          skillTextList={textFrameworkList}
+        <SkillType
+          type="Backend"
+          onClick={() => switchSkillType("Backend")}
         />
-        <SkillsCard
-          skillType="Tools"
-          skillTextList={textToolList}
-          skillIconList={null}
+        <SkillType type="Web" onClick={() => switchSkillType("Web")} />
+        <SkillType type="Mobile" onClick={() => switchSkillType("Mobile")} />
+        <SkillType
+          type="Languages"
+          onClick={() => switchSkillType("Language")}
         />
+        <SkillType
+          type="Frameworks"
+          onClick={() => switchSkillType("Framework")}
+        />
+        <SkillType
+          type="Databases"
+          onClick={() => switchSkillType("Database")}
+        />
+        <SkillType type="Tools" onClick={() => switchSkillType("Tool")} />
+        <SkillType
+          type="Data Science"
+          onClick={() => switchSkillType("Data Science")}
+        />
+      </div>
+
+      <div className="row">
+        <SkillCard skillType={skillType}/>
       </div>
     </div>
   );
