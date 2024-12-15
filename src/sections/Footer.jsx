@@ -1,12 +1,16 @@
 export default function Footer() {
-    const firstYear = 2024;
-    const year = new Date().getFullYear();
-    return (
-        <footer>
-            <h3>
-            © {firstYear === year ? year : `${firstYear} - ${year}`} 
-            </h3>
-            <h4>Designed & Developmented by Noah Stewart</h4>
-        </footer>
-    );
+  return (
+    <>
+      <div>
+        <h2>CONTACT</h2>
+        <h3>get in touch</h3>
+        <div>
+          <p>email</p>
+          <p>resume</p>
+          <p>GitHub</p>
+          <p>LinkedIn</p>
+        </div>
+      </div>
+    </>
+  );
 }

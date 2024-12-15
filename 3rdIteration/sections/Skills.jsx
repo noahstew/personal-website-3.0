@@ -13,7 +13,7 @@ export default function Skills() {
   }
 
   return (
-    <div className="mx-10">
+    <div className="mx-10 my-10">
       <SectionHeader sectionId="skills" title="Skills" />
       <div className="row">
         <SkillType type="All" onClick={() => switchSkillType("All")} />
@@ -41,7 +41,7 @@ export default function Skills() {
         />
         <SkillType type="Tools" onClick={() => switchSkillType("Tool")} />
         <SkillType
-          type="Data Science"
+          type="Data"
           onClick={() => switchSkillType("Data Science")}
         />
       </div>

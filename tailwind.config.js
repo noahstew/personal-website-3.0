@@ -5,8 +5,11 @@ module.exports = {
   ],
   theme: {
     extend: {
-      
-    },
+      fontFamily: {
+          sans: ['"Montserrat"', 'sans-serif'], // Primary font
+          mono: ['"Source Code Pro"', 'monospace'], // Secondary font
+      },
+  },
   },
   plugins: [],
 }

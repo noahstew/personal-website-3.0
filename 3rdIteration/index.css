@@ -3,10 +3,12 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-    @apply flex flex-col items-center justify-center bg-neutral-900 text-red-500 mx-4;
+@layer components {
+  .skills-grid {
+    @apply grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4;
+  }
+  .skill-item {
+    @apply flex flex-col items-center;
+  }
 }
 
-hr {
-    @apply w-full my-8 border-2 border-orange-300;
-}

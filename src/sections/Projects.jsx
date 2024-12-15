@@ -1,45 +1,33 @@
-import { useState } from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
-import SectionHeader from "../components/general_use/SectionHeader";
-import ProjectType from "../components/projects/ProjectType";
-import ProjectCard from "../components/projects/ProjectCard";
-import projects from "../utils/project";
-
 export default function Projects() {
-  const [projectType, setProjectType] = useState("Web");
-
-  function switchProjectType(type) {
-    if (projectType === type) return;
-    setProjectType(type);
-  }
-
   return (
-    <div  className="mx-10">
-      <SectionHeader sectionId="projects" title="Projects" />
-      <div className="row">
-        <ProjectType type="Web" onClick={() => switchProjectType("Web")} />
-        <ProjectType
-          type="Mobile"
-          onClick={() => switchProjectType("Mobile")}
-        />
-        <ProjectType type="WebGL" onClick={() => switchProjectType("WebGL")} />
+    <>
+      <div>
+        <h2>PROJECTS</h2>
+        <h3>my latest work</h3>
+        <div>
+          <div>
+            project image
+            <h4>Project 1</h4>
+            <p>description</p>
+            <button>GitHub</button>
+            <button>Demo</button>
+          </div>
+          <div>
+            project image
+            <h4>Project 2</h4>
+            <p>description</p>
+            <button>GitHub</button>
+            <button>Demo</button>
+          </div>
+          <div>
+            project image
+            <h4>Project 3</h4>
+            <p>description</p>
+            <button>GitHub</button>
+            <button>Demo</button>
+          </div>
+        </div>
       </div>
-      <div className="row">
-        {projects.map((project, index) => {
-          if (project.type === projectType) {
-            return (
-              <ProjectCard
-                key={index}
-                title={project.title}
-                tech={project.tech}
-                description={project.description}
-                link={project.link}
-                img={project.img}
-              />
-            );
-          }
-        })}
-      </div>
-    </div>
+    </>
   );
 }
