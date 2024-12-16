@@ -38,9 +38,9 @@ export default function Header() {
                 className="rounded-full border-4 border-neutral-300 my-6 mx-auto"
                 style={{
                   width: "100%",
-                  maxWidth: "128px", // Restricts max size
-                  aspectRatio: "1/1", // Maintains 1:1 ratio
-                  objectFit: "cover", // Ensures image content is not stretched
+                  maxWidth: "128px", 
+                  aspectRatio: "1/1", 
+                  objectFit: "cover", 
                 }}
               />
             </div>
