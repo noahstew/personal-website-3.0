@@ -9,7 +9,7 @@ export default function Header() {
           <div className="flex flex-wrap">
             <div>
               <GradientText
-                properties="text-3xl mt-8 font-semibold from-neutral-200 via-neutral-100 to-neutral-400"
+                properties="text-3xl mt-12 font-semibold from-neutral-200 via-neutral-100 to-neutral-400"
                 text="hey there,"
               />
               <GradientText
