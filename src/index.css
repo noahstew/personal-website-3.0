@@ -4,9 +4,5 @@
 @tailwind utilities;
 
 body {
-    @apply flex flex-col items-center justify-center bg-neutral-900 text-red-500 mx-4;
-}
-
-hr {
-    @apply w-full my-8 border-2 border-orange-300;
+    @apply flex flex-col items-center justify-center bg-gradient-to-br to-neutral-900 via-neutral-900 from-neutral-950 bg-neutral-950 text-red-500 h-full mx-4;
 }

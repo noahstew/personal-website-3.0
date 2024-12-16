@@ -17,7 +17,6 @@ function App() {
 
   return (
     <React.StrictMode>
-      <body>
         <Header/>
         <Break/>
         <Workspace/>
@@ -25,7 +24,6 @@ function App() {
         <Projects/>
         <Break/>
         <Footer/>
-      </body>
     </React.StrictMode>
   );
 }
