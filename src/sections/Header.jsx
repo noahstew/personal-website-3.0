@@ -33,7 +33,7 @@ export default function Header() {
             </div>
             <div className=" flex justify-center items-center">
               <img
-                src="/profile.jpg"
+                src="/Profile.jpg"
                 alt="Noah Stewart"
                 className="rounded-full border-4 border-neutral-300 my-6 mx-auto"
                 style={{
