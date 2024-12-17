@@ -1,16 +1,17 @@
+import SocialDashboard from '../components/SocialDashboard';
 export default function Footer() {
+  const year = new Date().getFullYear();
+
   return (
     <>
-      <div>
-        <h2>CONTACT</h2>
-        <h3>get in touch</h3>
-        <div>
-          <p>email</p>
-          <p>resume</p>
-          <p>GitHub</p>
-          <p>LinkedIn</p>
+      <section className="flex flex-col justify-center items-center text-center">
+        <p className="text-neutral-300 text-lg font-semibold mt-16 mb-2">
+          &copy; 2024-{year} Designed & Developed by Noah Stewart
+        </p>
+        <div className="flex flex-row gap-2 mt-4 justify-start mb-16">
+          <SocialDashboard />
         </div>
-      </div>
+      </section>
     </>
   );
 }
