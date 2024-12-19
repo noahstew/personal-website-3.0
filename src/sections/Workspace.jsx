@@ -5,13 +5,13 @@ import TechIcon from '../components/TechIcon';
 export default function Workspace() {
   return (
     <>
-      <section>
+      <section id="skills">
         <SectionHeader text="workspace" />
         <GradientText
           properties="text-lg font-semibold from-neutral-500 via-neutral-300 to-neutral-500"
           text="favourite technologies"
         />
-        <div className="flex flex-wrap gap-2 justify-around ">
+        <div className="flex flex-wrap lg:gap-2 gap-6 lg:justify-around justify-start">
           <TechIcon name="typescript" link="https://www.typescriptlang.org" />
           <TechIcon name="react" link="https://react.dev" />
           <TechIcon name="tailwind" link="https://tailwindcss.com" />
@@ -25,7 +25,7 @@ export default function Workspace() {
           properties="text-lg mt-2 font-semibold from-neutral-500 via-neutral-300 to-neutral-500"
           text="for data science"
         />
-        <div className="flex flex-wrap gap-2 justify-around ">
+        <div className="flex flex-wrap lg:gap-2 gap-6 lg:justify-around justify-start ">
           <TechIcon name="python" link="https://www.python.org" />
           <TechIcon name="tensorflow" link="https://www.tensorflow.org" />
           <TechIcon name="pandas" link="https://pandas.pydata.org" />
@@ -39,11 +39,11 @@ export default function Workspace() {
           />
         </div>
         <GradientText
-          properties="text-lg mt-2 font-semibold from-neutral-500 via-neutral-300 to-neutral-500"
+          properties="text-lg mt-4 font-semibold from-neutral-500 via-neutral-300 to-neutral-500"
           text="other tools i'm good at"
         />
-        <div className="flex flex-wrap gap-2 justify-around ">
-          <TechIcon name="Java" link="https://www.java.com/en/" />
+        <div className="flex flex-wrap lg:gap-2 gap-6 lg:justify-around justify-start">
+          <TechIcon name="java" link="https://www.java.com/en/" />
           <TechIcon
             name="html"
             link=" https://developer.mozilla.org/en-US/docs/Web/HTML"

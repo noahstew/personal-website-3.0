@@ -1,9 +1,10 @@
 import GradientText from '../components/GradientText';
+import Navbar from '../components/Navbar';
 import SocialDashboard from '../components/SocialDashboard';
 export default function Header() {
   return (
     <>
-      <section className="bg-transparent">
+      <section id="about" className="bg-transparent">
         <div>
           <div className="flex flex-wrap justify-between">
             <div>
@@ -48,6 +49,7 @@ export default function Header() {
             <SocialDashboard />
           </div>
         </div>
+        {/* <Navbar /> */}
       </section>
     </>
   );
