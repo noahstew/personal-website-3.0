@@ -22,7 +22,6 @@ function ProjectFeature({
           src={`/proj_images/${imgSrc}`}
           alt={projName}
         />
-        {/* <p className="mt-2">{about}</p> */}
         <div className="flex flex-row gap-2 mt-2">
           <LineButton
             properties={learnMoreStyles}

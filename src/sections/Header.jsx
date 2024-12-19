@@ -1,5 +1,4 @@
 import GradientText from '../components/GradientText';
-import Navbar from '../components/Navbar';
 import SocialDashboard from '../components/SocialDashboard';
 export default function Header() {
   return (
@@ -49,7 +48,6 @@ export default function Header() {
             <SocialDashboard />
           </div>
         </div>
-        <Navbar />
       </section>
     </>
   );

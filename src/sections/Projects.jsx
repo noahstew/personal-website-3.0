@@ -24,7 +24,7 @@ export default function Projects() {
           <ProjectFeature
             projName="CanaWeather"
             techStack="HTML | CSS | Javascript | JQuery | Firebase"
-            about="Canadian weather web app storing data users locations in Firebase.  Implemented OpenWeatherMap API to make restful calls and display current weather, 5-day forecast, and check if locations exist on user.  Designed and styled the page using CSS and JQuery."
+            about="Canadian weather web app storing data users locations in Firebase.  Implemented OpenWeatherMap API to make restful calls and display current weather, 5-day forecast, and check if locations exist on user search.  Designed and styled the view dynamically changing view page using CSS and JQuery."
             imgSrc="weather.png"
             githubLink="https://github.com/UBCO-COSC-310-Winter-2024-T1/the-project-festival"
             demoLink="https://youtu.be/GX_xC9Zf-Wg"

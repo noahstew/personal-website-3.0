@@ -5,16 +5,15 @@ function LineButton({ properties, linkTo, children, about }) {
   const [showDetails, setShowDetails] = useState(false);
 
   const toggleDetails = () => {
-    console.log('clicked');
     setShowDetails(!showDetails);
     document.body.classList.toggle('overflow-hidden');
   };
   return showDetails ? (
     <>
-      <div className="fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 z-50 flex justify-center items-center stop-scrolling ">
+      <div className="fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 z-50 flex justify-center items-center ">
         <div className="bg-gradient-to-tl to-neutral-800 via-neutral-700 from-neutral-800 p-4 rounded-lg border-8 lg:mx-32 mx-8 border-neutral-500">
           <button
-            className="text-3xl mb-4 text-neutral-400 font-semibold hover:scale-125 ease-in-out transition-all duration-300 "
+            className="text-3xl mb-4 text-neutral-400 font-semibold hover:scale-110 hover:text-neutral-200 ease-in-out transition-all duration-300 "
             onClick={toggleDetails}
           >
             X

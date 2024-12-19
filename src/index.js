@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 
+import Navbar from './sections/Navbar';
 import Header from './sections/Header';
 import Break from './sections/Break';
 import Workspace from './sections/Workspace';
@@ -13,6 +14,7 @@ root.render(<App />);
 function App() {
   return (
     <React.StrictMode>
+      <Navbar />
       <Header />
       <Break />
       <Workspace />
