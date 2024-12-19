@@ -1,18 +1,12 @@
+import DesktopNavButton from './DesktopNavButton';
+
 function Navbar() {
   return (
-    <div className="fixed top-0 left-0 mt-12 ml-4 flex flex-col justify-end ">
-      <a href="#about" className="hover:text-neutral-300">
-        About
-      </a>
-      <a href="#skills" className="hover:text-neutral-300">
-        Skills
-      </a>
-      <a href="#projects" className="hover:text-neutral-300">
-        Projects
-      </a>
-      <a href="#contact" className="hover:text-neutral-300">
-        Contact
-      </a>
+    <div className="lgnavbar relative hidden lg:fixed lg:top-0 lg:left-0 lg:my-12 lg:ml-2 lg:flex lg:flex-col lg:items-end lg:text-2xl lg:font-bold lg:py-4 lg:pl-8">
+      <DesktopNavButton id="about" />
+      <DesktopNavButton id="skills" />
+      <DesktopNavButton id="projects" />
+      <DesktopNavButton id="contact" />
     </div>
   );
 }

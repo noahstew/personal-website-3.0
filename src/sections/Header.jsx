@@ -19,7 +19,7 @@ export default function Header() {
               <div className="flex items-center space-x-2">
                 <div className="bg-gradient-to-b from-lime-400 via-green-400 to-green-500 rounded-full w-4 h-4 text-neutral-400"></div>
                 <p className="text-md text-neutral-300 m-1">
-                  available for work
+                  available for work in summer 2025
                 </p>
               </div>
               <GradientText
@@ -49,7 +49,7 @@ export default function Header() {
             <SocialDashboard />
           </div>
         </div>
-        {/* <Navbar /> */}
+        <Navbar />
       </section>
     </>
   );
