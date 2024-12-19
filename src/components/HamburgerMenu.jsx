@@ -15,7 +15,7 @@ const HamburgerMenu = () => {
       {isOpen && (
         <div
           className="fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 z-30"
-          onClick={() => setIsOpen(false)} // Close menu when clicking outside
+          onClick={toggleMenu} // Close menu when clicking outside
         ></div>
       )}
 
@@ -26,10 +26,10 @@ const HamburgerMenu = () => {
         }`}
       >
         <div className="text-3xl flex flex-col justify-center items-end h-full p-8 space-y-4">
-          <MobileNavButton id="about" setIsOpen={setIsOpen} />
-          <MobileNavButton id="skills" setIsOpen={setIsOpen} />
-          <MobileNavButton id="projects" setIsOpen={setIsOpen} />
-          <MobileNavButton id="contact" setIsOpen={setIsOpen} />
+          <MobileNavButton id="about" toggleMenu={toggleMenu} />
+          <MobileNavButton id="skills" toggleMenu={toggleMenu} />
+          <MobileNavButton id="projects" toggleMenu={toggleMenu} />
+          <MobileNavButton id="contact" toggleMenu={toggleMenu} />
         </div>
       </div>
 
