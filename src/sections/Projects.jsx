@@ -53,6 +53,13 @@ export default function Projects() {
             githubLink="https://github.com/noahstew/personal-website-3.0"
             demoLink=""
           />
+          <ProjectFeature
+            projName="TrueFalseAPI"
+            techStack="Javascript | Express | Supabase"
+            about="API containing 200+ true/false questions with answers and sources.  Open API for anyone to use, with a documentation page to show how to use the API.  Also added a suggestion page to receive ideas from public users to add to the API which can be automatically added by an admin on approval.  Used Express to manage endpoints and Supabase to store the data."
+            imgSrc="truefalse.png"
+            demoLink="https://true-false-api.vercel.app/"
+          />
         </div>
       </section>
     </>
