@@ -9,7 +9,7 @@ export default function Workspace() {
         <SectionHeader text="workspace" />
         <GradientText
           properties="text-lg mt-6 mb-2 font-semibold from-neutral-500 via-neutral-300 to-neutral-500"
-          text="favourite technologies"
+          text="my tech stack"
         />
         <div className="flex flex-wrap lg:gap-2 gap-6 lg:justify-between justify-start">
           <TechIcon name="typescript" link="https://www.typescriptlang.org" />
@@ -17,11 +17,12 @@ export default function Workspace() {
           <TechIcon name="tailwind" link="https://tailwindcss.com" />
           <TechIcon name="nextjs" link="https://nextjs.org" />
           <TechIcon name="nodejs" link="https://nodejs.org/en" />
-          <TechIcon name="expressjs" link="https://expressjs.com" />
-          <TechIcon name="flutter" link="https://flutter.dev" />
+          <TechIcon name="supabase" link="https://supabase.com/" />
+          <TechIcon name="postgresql" link="https://www.postgresql.org" />
+          <TechIcon name="docker" link="https://www.docker.com/" />
           <TechIcon name="git" link="https://git-scm.com" />
         </div>
-        <GradientText
+        {/* <GradientText
           properties="text-lg mt-6 mb-2 font-semibold from-neutral-500 via-neutral-300 to-neutral-500"
           text="for data science"
         />
@@ -37,10 +38,10 @@ export default function Workspace() {
             name="excel"
             link="https://www.microsoft.com/en-ca/microsoft-365/excel"
           />
-        </div>
+        </div> */}
         <GradientText
           properties="text-lg mt-6 mb-2 font-semibold from-neutral-500 via-neutral-300 to-neutral-500"
-          text="other tools i'm good at"
+          text="other experience in"
         />
         <div className="flex flex-wrap lg:gap-2 gap-6 lg:justify-between justify-start">
           <TechIcon name="java" link="https://www.java.com/en/" />
@@ -56,8 +57,10 @@ export default function Workspace() {
             name="javascript"
             link="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
           />
+          <TechIcon name="flutter" link="https://flutter.dev" />
+          <TechIcon name="expressjs" link="https://expressjs.com" />
+
           <TechIcon name="sql" link="https://en.wikipedia.org/wiki/SQL" />
-          <TechIcon name="postgresql" link="https://www.postgresql.org" />
           <TechIcon name="mysql" link="https://dev.mysql.com" />
           <TechIcon name="firebase" link="https://firebase.google.com" />
         </div>

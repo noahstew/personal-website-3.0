@@ -16,9 +16,18 @@ export default function Header() {
                 text="i am noah"
               />
               <div className="flex items-center space-x-2">
-                <div className="bg-gradient-to-b from-lime-400 via-green-400 to-green-500 rounded-full w-4 h-4 text-neutral-400"></div>
+                {/*for available from-yellow-400 via-orange-400 to-orange-500 */}
+                <div className="bg-gradient-to-b from-yellow-400 via-orange-400 to-orange-500 rounded-full w-4 h-4 text-neutral-400"></div>
                 <p className="text-md text-neutral-300 m-1">
-                  available for work in summer 2025
+                  incoming @{' '}
+                  <a
+                    className="font-semibold text-orange-400 hover:text-orange-300"
+                    href="https://www.nbpower.com/Welcome.aspx?lang=en"
+                    target="_blank"
+                  >
+                    NBPower
+                  </a>{' '}
+                  in may 2025
                 </p>
               </div>
               <GradientText
@@ -27,7 +36,7 @@ export default function Header() {
               />
               <GradientText
                 properties="from-neutral-400 to-neutral-400"
-                text="excited by software engineering & machine learning"
+                text="excited by web and mobile development"
               />
             </div>
             <div className="flex justify-center items-center">
