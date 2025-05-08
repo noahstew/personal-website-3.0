@@ -17,17 +17,17 @@ export default function Header() {
               />
               <div className="flex items-center space-x-2">
                 {/*for available from-yellow-400 via-orange-400 to-orange-500 */}
-                <div className="bg-gradient-to-b from-yellow-400 via-orange-400 to-orange-500 rounded-full w-4 h-4 text-neutral-400"></div>
+                {/*for incoming  from-yellow-400 via-orange-400 to-orange-500 */}
+                <div className="bg-gradient-to-br from-red-500 via-red-400 to-red-600 rounded-full w-4 h-4 text-neutral-400"></div>
                 <p className="text-md text-neutral-300 m-1">
-                  incoming @{' '}
-                  <a
-                    className="font-semibold text-orange-400 hover:text-orange-300"
+                  software developer @ NB Power
+                  {/* <a
+                    className="font-semibold text-neutral-300 hover:text-neutral-400"
                     href="https://www.nbpower.com/Welcome.aspx?lang=en"
                     target="_blank"
                   >
                     NBPower
-                  </a>{' '}
-                  in may 2025
+                  </a> */}
                 </p>
               </div>
               <GradientText
