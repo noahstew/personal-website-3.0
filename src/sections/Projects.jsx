@@ -37,12 +37,20 @@ export default function Projects() {
         />
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          <ProjectFeature
+          {/* <ProjectFeature
             projName="TrueFalseAPI"
             techStack="Javascript | Express | Supabase"
             about="API containing 200+ true/false questions with answers and sources.  Open API for anyone to use, with a documentation page to show how to use the API.  Also added a suggestion page to receive ideas from public users to add to the API which can be automatically added by an admin on approval.  Used Express to manage endpoints and Supabase to store the data."
             imgSrc="truefalse.png"
             demoLink="https://true-false-api.vercel.app/"
+          /> */}
+          <ProjectFeature
+            projName="InspirED CMS"
+            techStack="NextJS | TypeScript | Tailwind | Supabase | Vercel"
+            about="Custom content management system for university club to manage their website.  Custom features include a linktree style landing page, and blog, editable by an admin dashboard.  Collaborated with InspirED to deliver a website to gather requirements and satisfies there use cases."
+            imgSrc="inspired.png"
+            githubLink="https://github.com/noahstew/habitica-clone"
+            demoLink="https://inspiredsk.ca/"
           />
           <ProjectFeature
             projName="Side Questor"
@@ -52,14 +60,14 @@ export default function Projects() {
             githubLink="https://github.com/noahstew/quest_manager_app"
             demoLink="https://youtu.be/9aOBoY49_Xg"
           />
-          <ProjectFeature
+          {/* <ProjectFeature
             projName="Personal Portfolio"
             techStack="React | Tailwind | Node | Vercel"
             about="This website!  Utilized custom React components, hooks and props for easy duplication and dynamic website.  Styled with TailwindCSS to make website responsive, intuitive and minimalistic with custom animations.  Used Node for package management and testing the website locally during development.  Deployed to Vercel and configured DNS for custom domain."
             imgSrc="portfolio.png"
             githubLink="https://github.com/noahstew/personal-website-3.0"
             demoLink=""
-          />
+          /> */}
         </div>
       </section>
     </>
