@@ -8,6 +8,7 @@ import Break from './sections/Break';
 import Workspace from './sections/Workspace';
 import Projects from './sections/Projects';
 import Footer from './sections/Footer';
+import Experience from './sections/Experience';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<App />);
@@ -20,6 +21,8 @@ function App() {
       <Workspace />
       <Break />
       <Projects />
+      <Break />
+      <Experience />
       <Break />
       <Footer />
     </React.StrictMode>

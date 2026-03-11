@@ -20,7 +20,7 @@ export default function Header() {
                 {/*for incoming  from-yellow-400 via-orange-400 to-orange-500 */}
                 <div className="bg-gradient-to-br from-red-500 via-red-400 to-red-600 rounded-full w-4 h-4 text-neutral-400"></div>
                 <p className="text-md text-neutral-300 m-1">
-                  full stack developer @ NB Power
+                  software engineer @ NB Power
                   {/* <a
                     className="font-semibold text-neutral-300 hover:text-neutral-400"
                     href="https://www.nbpower.com/Welcome.aspx?lang=en"
@@ -36,7 +36,7 @@ export default function Header() {
               />
               <GradientText
                 properties="from-neutral-400 to-neutral-400"
-                text="excited by web and mobile development"
+                text="graduating apr. 2027"
               />
             </div>
             <div className="flex justify-center items-center">

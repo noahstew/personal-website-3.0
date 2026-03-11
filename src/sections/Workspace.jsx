@@ -6,7 +6,7 @@ export default function Workspace() {
   return (
     <>
       <section id="skills">
-        <SectionHeader text="workspace" />
+        <SectionHeader text="skills" />
         <GradientText
           properties="text-lg mt-6 mb-2 font-semibold from-neutral-500 via-neutral-300 to-neutral-500"
           text="my tech stack"
@@ -16,8 +16,8 @@ export default function Workspace() {
           <TechIcon name="react" link="https://react.dev" />
           <TechIcon name="tailwind" link="https://tailwindcss.com" />
           <TechIcon name="nextjs" link="https://nextjs.org" />
-          <TechIcon name="nodejs" link="https://nodejs.org/en" />
-          <TechIcon name="supabase" link="https://supabase.com/" />
+          <TechIcon name="golang" link="https://go.dev" />
+          <TechIcon name="sql" link="https://en.wikipedia.org/wiki/SQL" />
           <TechIcon name="postgresql" link="https://www.postgresql.org" />
           <TechIcon name="docker" link="https://www.docker.com/" />
           <TechIcon name="git" link="https://git-scm.com" />
@@ -53,16 +53,15 @@ export default function Workspace() {
             name="css"
             link="https://developer.mozilla.org/en-US/docs/Web/CSS"
           />
+          <TechIcon name="bootstrap" link="https://getbootstrap.com" />
           <TechIcon
             name="javascript"
             link="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
           />
-          <TechIcon name="flutter" link="https://flutter.dev" />
+          <TechIcon name="jquery" link="https://jquery.com" />
           <TechIcon name="expressjs" link="https://expressjs.com" />
-
-          <TechIcon name="sql" link="https://en.wikipedia.org/wiki/SQL" />
-          <TechIcon name="mysql" link="https://dev.mysql.com" />
-          <TechIcon name="firebase" link="https://firebase.google.com" />
+          <TechIcon name="dart" link="https://dart.dev" />
+          <TechIcon name="flutter" link="https://flutter.dev" />
         </div>
       </section>
     </>
