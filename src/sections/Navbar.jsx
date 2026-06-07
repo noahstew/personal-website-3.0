@@ -9,7 +9,7 @@ function Navbar() {
         <DesktopNavButton id="skills" />
         <DesktopNavButton id="projects" />
         <DesktopNavButton id="experience" />
-        <DesktopNavButton id="contact" />
+        {/* <DesktopNavButton id="contact" /> */}
       </div>
       <HamburgerMenu />
     </>

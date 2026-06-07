@@ -3,7 +3,7 @@ import GradientText from './GradientText';
 function DesktopNavButton({ id }) {
   return (
     <button
-      className="text-neutral-500 hover:text-neutral-200 hover:-translate-x-4 transition-all duration-300 ease-in-out py-2 pr-4"
+      className="text-neutral-500 hover:text-neutral-200 hover:-translate-x-2 transition-all duration-300 ease-in-out py-2 pr-4"
       onClick={() =>
         document.getElementById(`${id}`).scrollIntoView({ behavior: 'smooth' })
       }

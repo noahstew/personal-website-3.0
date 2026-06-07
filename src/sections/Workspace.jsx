@@ -9,7 +9,7 @@ export default function Workspace() {
         <SectionHeader text="skills" />
         <GradientText
           properties="text-lg mt-6 mb-2 font-semibold from-neutral-500 via-neutral-300 to-neutral-500"
-          text="my tech stack"
+          text="my favourite technologies:"
         />
         <div className="flex flex-wrap lg:gap-2 gap-6 lg:justify-between justify-start">
           <TechIcon name="typescript" link="https://www.typescriptlang.org" />
@@ -41,7 +41,7 @@ export default function Workspace() {
         </div> */}
         <GradientText
           properties="text-lg mt-6 mb-2 font-semibold from-neutral-500 via-neutral-300 to-neutral-500"
-          text="other experience in"
+          text="i also have experience in:"
         />
         <div className="flex flex-wrap lg:gap-2 gap-6 lg:justify-between justify-start">
           <TechIcon name="java" link="https://www.java.com/en/" />
