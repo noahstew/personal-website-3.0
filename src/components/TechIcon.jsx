@@ -1,6 +1,6 @@
 export default function TechIcon({ name, link }) {
   return (
-    <a href={link} target="_blank">
+    <a href={link} target="_blank" rel="noreferrer">
       <div className="flip-card">
         <div className="flip-card-inner">
           {/* Front Side - Icon */}
