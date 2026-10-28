@@ -30,9 +30,15 @@ function ProjectFeature({
           >
             More Details
           </LineButton>
-          <ArrowButton properties={githubStyles} linkTo={githubLink}>
-            Github
-          </ArrowButton>
+          {githubLink.length > 0 ? (
+            <ArrowButton properties={githubStyles} linkTo={githubLink}>
+              Github
+            </ArrowButton>
+          ) : (
+            <div className="flex w-1/2 items-center justify-center">
+              <p className="text-center">Github is Private</p>
+            </div>
+          )}
         </div>
       </div>
     </>

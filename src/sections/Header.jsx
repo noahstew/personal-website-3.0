@@ -16,27 +16,21 @@ export default function Header() {
                 text="i am noah"
               />
               <div className="flex items-center space-x-2">
-                {/*for available from-yellow-400 via-orange-400 to-orange-500 */}
+                {/*for incoming  from-freen-400 via-hreen-400 to-green-500 */}
                 {/*for incoming  from-yellow-400 via-orange-400 to-orange-500 */}
-                <div className="bg-gradient-to-br from-red-500 via-red-400 to-red-600 rounded-full w-4 h-4 text-neutral-400"></div>
+                {/* for employed from-red-500 via-red-400 to-red-600 */}
+                <div className="bg-gradient-to-br from-green-400 via-green-500 to-green-600 rounded-full w-4 h-4 animate-pulse"></div>{' '}
                 <p className="text-md text-neutral-300 m-1">
-                  software engineer @ NB Power
-                  {/* <a
-                    className="font-semibold text-neutral-300 hover:text-neutral-400"
-                    href="https://www.nbpower.com/Welcome.aspx?lang=en"
-                    target="_blank"
-                  >
-                    NBPower
-                  </a> */}
+                  available for full-time work in may 2027
                 </p>
               </div>
               <GradientText
                 properties="from-neutral-300 via-neutral-300 to-neutral-400 mt-4 font-semibold"
-                text="Computer & Data Science @ University of British Columbia"
+                text="software engineer"
               />
               <GradientText
                 properties="from-neutral-400 to-neutral-400"
-                text="graduating apr. 2027"
+                text="bsc. computer science @ university of british columbia"
               />
             </div>
             <div className="flex justify-center items-center">
